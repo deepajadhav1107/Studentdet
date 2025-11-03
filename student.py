@@ -1,7 +1,10 @@
-name= input("Enter name:")
-usn= input("Enter Father name:")
+import sys
 
 
 
-print(name)
-print(usn)
+name = sys.argv[1]
+rollno = sys.argv[2]
+
+print("Student Name:", name)
+print("Roll Number:", rollno)
+
