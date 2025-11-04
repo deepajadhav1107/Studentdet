@@ -6,9 +6,3 @@ if len(sys.argv) == 3:
     print("User provided input values:")
     print("Student Name:", name)
     print("Roll Number:", rollno)
-else:
-    name = "Deepa"   # Default value
-    rollno = "101"   # Default value
-    print(" No input given — using default values:")
-    print("Student Name:", name)
-    print("Roll Number:", rollno)
